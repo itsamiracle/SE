@@ -25,8 +25,6 @@ public class Button3 implements ActionListener {
         JButton blueButton = new JButton("Blue");
         blueButton.addActionListener(this);
 
-        System.out.println(blueButton.getText());
-
         frame.getContentPane().add(BorderLayout.NORTH, greenButton);
         frame.getContentPane().add(BorderLayout.SOUTH, blueButton);
 
